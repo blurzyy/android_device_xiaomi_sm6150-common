@@ -182,6 +182,7 @@ debug.stagefright.omx_default_rank=512
 # Perf
 ro.vendor.perf.scroll_opt=true
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
