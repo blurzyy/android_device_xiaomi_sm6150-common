@@ -218,5 +218,9 @@ ro.config.vc_call_vol_steps=10
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
 
+# USB
+vendor.usb.diag.func.name=diag
+vendor.usb.use_ffs_mtp=0
+
 # WiFi
 wifi.aware.interface=wifi-aware0
