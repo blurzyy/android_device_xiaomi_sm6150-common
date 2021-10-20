@@ -176,6 +176,11 @@ PRODUCT_COPY_FILES += \
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    $(LOCAL_PATH)/configs/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
