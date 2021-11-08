@@ -470,6 +470,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/qcom-caf/wlan
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.binary_xml=false
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
