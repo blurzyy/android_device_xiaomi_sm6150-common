@@ -195,6 +195,9 @@ PRODUCT_PACKAGES += \
 		libsdmcore \
 		libsdmutils \
 		libtinyxml \
+		libqdMetaData \
+		libqdMetaData.system \
+		libdisplayconfig \
     vendor.qti.hardware.display.allocator-service
 
 PRODUCT_PACKAGES += \
